@@ -1578,7 +1578,6 @@ i.icon-white {
 		padding-right:0;
 		padding:0;
 	}
-	
 	.navbar-inner {
 	 padding-right: 20px;
 	 padding-left: 20px;	
@@ -1612,6 +1611,9 @@ i.icon-white {
 		padding-left:0 ;
 		padding-right:0;
 		padding:0;
+	}
+	header .logo img {
+		width: 60%;
 	}
 	.navbar-inner {
 	 padding-right: 20px;
@@ -1647,6 +1649,10 @@ i.icon-white {
 @media (max-width : 480px) {
 	#header-wrapper {
 		padding-top:80px;
+	}
+
+	header .logo img {
+		width: 60%;
 	}
 
 	#team .team-thumb {
